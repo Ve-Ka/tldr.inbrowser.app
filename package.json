@@ -12,7 +12,8 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "download:tldr-pages": "wget -O public/tldr-pages.zip https://github.com/tldr-pages/tldr/archive/refs/heads/main.zip",
-    "build:sitemap": "node scripts/build-sitemap.js"
+    "build:sitemap": "node scripts/build-sitemap.js",
+    "start" : "vite --host"
   },
   "dependencies": {
     "@zip.js/zip.js": "^2.6.61",
